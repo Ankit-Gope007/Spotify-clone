@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnkiFy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="left flex">
+        <div class="home">
+            <div class="cross"><i class="fa-solid fa-xmark"></i></div>
+            <ul>
+                <li><i class="fa-brands fa-spotify fa-spin"
+                        style="margin-right: -9px; font-size: 26px; color: white;"></i>AnkiFy</li>
+                <li><img class="invert" src="home.svg" alt="home">Home</li>
+                <li><img class="invert" src="search.svg" alt="search">Search</li>
+            </ul>
+        </div>
+        <div class="library">
+            <div class="heading">
+                <img src="library.svg" style="filter: invert(0.5);" alt="library_logo">
+                Your Library
+            </div>
+            <div class="song_list">
+                <ul>
+                    <!-- <li>
+                        <i class="fa-solid fa-music"></i>
+                        <div class="info">
+                            <div class="song_name">Song Name</div>
+                            <div class="song_info">Song title</div>
+                        </div>
+                        <i class="fa-regular fa-circle-play"></i>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="footer">
+
+                <div><a href="https://www.spotify.com/in-en/legal/"> Legal</a></div>
+                <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"> Privacy Center</a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="right">
+        <div class="header ">
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="arrow ">
+                <div class="l "><img style="filter: invert(0.7);" src="left_arrow.svg"></div>
+                <div class="r "><img  style="filter: invert(0.7);" src="right_arrow.svg"></div>
+            </div>
+            <div class="sign_up ">Sign in</div>
+            <div class="log_in">Log in</div>
+        </div>
+
+        <div class="playlist">
+            <h1 style="color: white;">AnkiFy Playlist</h1>
+
+            <div class="card_container">
+                <div class="card" data-folder="Rockstar">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e0254e544672baa16145d67612b" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                    <h2>Rockstar</h2>
+                    <p>A.R.Rahman,Irshad Khan</p>
+                </div>
+                <div class="card" data-folder="Animal">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                    <h2>Animal</h2>
+                    <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
+                </div>
+                <div class="card" data-folder="Pathaan">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e027d46ff19532fdba734bfd4e0" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                    <h2>Pathaan</h2>
+                    <p>2022 • Vishal-Shekhar, Sanchit Balhara</p>
+                </div>
+                <div class="card" data-folder="Shershaah">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02ab827cdec4b3fc1b02bfdb1e" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                    <h2>Shershaah</h2>
+                    <p>2021 •Tanishk Bagchi, Javed-Mohsin, Jaani</p>
+                </div>
+                <div class="card" data-folder="War">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e0245a01de13b8eba2fa29a6601" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                    <h2>War</h2>
+                    <p>2019 • Vishal-Shekhar, Sanchit Balhara</p>
+                </div>
+                <div class="card" data-folder="Kalank">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e029eb6c1861d8c058e7052df1e" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                    <h2>Kalank</h2>
+                    <p>2019 •Pritam</p>
+                </div>
+                <div class="card" data-folder="Jawan">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02e452a6e11147f3e56aee6f5b" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                    <h2>Jawan</h2>
+                    <p>2023 •Anirudh Ravichander</p>
+                </div>
+
+
+
+               
+            </div>
+
+        </div>
+
+        <div class="Outer_playbar">
+            <div class="song_name_playbar"></div>
+            <div class="playbar">
+                
+                <div class="previous"><i class="fa-solid fa-caret-left"></i></div>
+                <div class="music_play"><i class="fa-regular fa-circle-play"></i></div>
+                <div class="next"><i class="fa-solid fa-caret-right"></i></div>
+            </div>
+            <div class="song_time"></div>
+            <div class="seekbar">
+                <div class="circle"></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- /Users/ankitgope/Desktop/PROJECTS/spotify project/Rockstar/128-Aur Ho - Rockstar 128 Kbps.mp3 -->
+ <!-- http://127.0.0.1:5502/spotify%20project/Rockstar/128-Aur%20Ho%20-%20Rockstar%20128%20Kbps.mp3 -->
